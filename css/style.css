@@ -13,7 +13,12 @@ html {
 .hero {
     display: inline-block;
     width: 100%;
+    min-height: 100vh;
     background-color: #03A9F5;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding-bottom: 20px;
     padding-top: 60px;
     text-align: center;
@@ -190,7 +195,6 @@ footer {
     .small-container {
         width: 500px;
         margin: 0 calc( (100% - 500px) / 2 );
-        background-color: lime;
     }
     .container {
         width: 500px;
@@ -210,7 +214,7 @@ footer {
     .small-container {
         width: calc(100% - 40px);
         margin: 0 20px;
-        background-color: lime;
+
     }
     .container {
         width: calc(100% - 40px);
