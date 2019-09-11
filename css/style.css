@@ -221,4 +221,8 @@ footer {
         margin-left: 20px;
     }
 
+    footer .fa-angle-up {
+        display: none;
+    }
+
 }
